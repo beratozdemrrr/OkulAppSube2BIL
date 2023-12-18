@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OkulApp.DAL\OkulApp.DAL.csproj" />
+    <ProjectReference Include="..\OkulApp.MODEL\OkulApp.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
