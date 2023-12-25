@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmOgretmenKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgretmenKayit.Designer.cs">
+      <DependentUpon>frmOgretmenKayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmOgrKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmOgretmenKayit.resx">
+      <DependentUpon>frmOgretmenKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmOgrKayit.resx">
       <DependentUpon>frmOgrKayit.cs</DependentUpon>
     </EmbeddedResource>
